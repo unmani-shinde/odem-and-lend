@@ -1,0 +1,73 @@
+/* Set styles for the table */
+
+@font-face {
+	font-family: Centra;
+	src: url("./font/CentraNo2-Bold.ttf");
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+body{
+  font-family: 'Centra', sans-serif !important;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.my-loan-requests-table th, .my-loan-requests-table td{
+  position: sticky;
+}
+
+.LowerButton{
+  margin-right: 5vw;
+}
+
+/* Set styles for the table headings */
+th {
+  text-align: left;
+  padding: 0.5rem;
+  background-color: #62CDFF;
+  color: white;
+}
+
+/* Set styles for the table data cells */
+td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+/* Set styles for the button */
+.LowerButton {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #62CDFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.LowerButton:hover{
+  background-color: white;
+  color: black;
+}
+
+/* Set styles for the checkbox */
+input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,114 @@
+.form-group {
+    margin-bottom: 20px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    }
+    
+    input[type="number"],
+    input[type="date"],
+    input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    background-color: #f2f2f2;
+    }
+    
+    input[type="number"]:focus,
+    input[type="date"]:focus,
+    input[type="text"]:focus {
+    outline: none;
+    border-color: #a1887f;
+    box-shadow: 0 0 8px 0 #a1887f;
+    }
+    
+    button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b3b3b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+    button[type="submit"]:hover {
+    background-color: #a1887f;
+    }
+    
+    .btn-block {
+    display: block;
+    width: 100%;
+    }
+    
+    /* Style for the Past Loan Details table */
+    .table {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #f2e8df;
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+    
+    .table th,
+    .table td {
+    padding: 12px;
+    text-align: center;
+    color: #333;
+    }
+    
+    .table th {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #b3a394;
+    border: 1px solid #a1887f;
+    }
+    
+    .table td {
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #a1887f;
+    }
+    
+    .table tbody tr:nth-child(even) {
+    background-color: #e5d3c8;
+    }
+    
+    .table tbody tr:hover {
+    background-color: #d1b8a7;
+    }
+    
+    /* Style for the "View Details" button */
+    .btn-primary {
+    color: #fff;
+    background-color: #a1887f;
+    border-color: #a1887f;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 16px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    .btn-primary:hover {
+    color: #fff;
+    background-color: #785548;
+    border-color: #785548;
+    }
